@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+   <html lang="ar">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>لوحة مفاتيح عربية معكوسة</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <div class="container">
+           <h1>لوحة مفاتيح عربية معكوسة</h1>
+           <select id="languageSelector">
+               <option value="ar">العربية</option>
+               <option value="en">الإنجليزية</option>
+           </select>
+           <textarea id="input" placeholder="اكتب النص العربي هنا..."></textarea>
+           <textarea id="output" placeholder="النص المعكوس سيظهر هنا..." readonly></textarea>
+           <div class="buttons">
+               <button id="copyButton">نسخ النص</button>
+               <button id="shareButton">مشاركة النص</button>
+               <button id="darkModeButton">الوضع الليلي</button>
+               <button id="clearButton">مسح الكل</button>
+           </div>
+       </div>
+       <script src="script.js"></script>
+   </body>
+   </html>
